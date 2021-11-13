@@ -1,0 +1,9 @@
+.swiper {
+  width: 100%;
+}
+.swiper-slide img {
+width: 100%;
+}
+.swiper-button-next{
+  display: none;
+}

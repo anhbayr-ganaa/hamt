@@ -1,0 +1,52 @@
+.give {
+width: 100%;
+  height: 50px;
+  position: static;
+
+}
+
+.giveslide img {
+width:85%;
+max-height: 30px;
+filter: grayscale(100%);
+object-fit: contain;
+}
+.giveslide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.giveslide img {
+  display: block;
+  width: 80%;
+  height: 15px;
+
+}
+.giveslide img:hover{
+filter: grayscale(0%);
+}
+
+.swiper-pagination-bullet{
+display: none;
+}
+
+.give-wrapper{
+background-color :white;
+}
+
+.small-swiper{
+  border:none;
+  height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  
+.small-swiper{
+  border:none;
+  height: 180px;
+}
+
+}

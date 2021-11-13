@@ -1,0 +1,80 @@
+*, ::before, ::after {
+    background-repeat: no-repeat;
+}
+
+.solution{
+    background-color: rgb(250, 251, 255);
+    padding: 70px 0px 20px;
+}
+.solution .container{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: "Averta CY", sans-serif;
+}
+.section-title{
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.26;
+    font-family: "Averta CY", sans-serif;
+
+}
+.so{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(30, 32, 48);
+}
+
+.so::before{
+    width: 200px;
+    height: 25px;
+    content: "";
+    display: block;
+    background-image: url(../icon/sol.svg);
+    background-size: contain;
+    background-position: right bottom;
+    align-self: flex-end;
+    margin-bottom: -4
+px
+;
+    margin-right: -39
+px
+;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    padding: 0px 7%;
+    margin-top: 6%;
+    margin-bottom: 7%;
+    align-content: center;
+}
+.s-item{
+
+}
+
+
+.s-item h5{
+    color: rgb(136, 85, 241);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.s-item p{
+ 
+        font-size: 18px;
+        color: rgb(137, 137, 137);
+        font-weight: 400;
+        margin-bottom: 0px;
+
+}
+delgerengui{
+    
+}

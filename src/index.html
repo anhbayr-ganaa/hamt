@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+<link rel="stylesheet" type="text/css" href="../stylesheets/swiper_slide.css">
+<link rel="stylesheet" type="text/css" href="../stylesheets/nav.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../stylesheets/full.css">
+
+<link rel="stylesheet" type="text/css" href="../stylesheets/small_swiper.css">
+
+<link rel="stylesheet" type="text/css" href="../stylesheets/codeplatform.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bull:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap">
+
+<script src="..js/swiper.js">
+</script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+</head>
+<style type="text/css">
+  .container{
+    margin-left: 1%;
+    margin-right: 0.8%;
+  }
+
+</style>
+<body>
+ <div class="full">
+     <div class="navbar">
+        <div class="container">
+            <a class="logo" href="">
+              <img src="../image/logo.svg">
+              <h6 class="slagon">Таны бизнесийг технологиор хөгжүүлнэ</h6>
+            </a>
+
+
+             <div class="menus" id="myTopnav" >
+              <button type="button" class="btn">Коди Платформ</button>
+              <button type="button" class="btn">Шийдэл</button>
+              <button type="button" class="btn">Боломжууд</button>
+              <button type="button" class="btn">Харилцагч</button>
+              <a href="/about" class="btn">Бидний тухай</a>
+               <button type="button" class="btn-contact btn">Холбоо барих</button>
+
+             </div>
+
+
+             <div class="slider" id="mySlid">
+               <header>    <a href="javascript:void(0);" class="close" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a></header>
+               <div class="bodyh1">
+                 <ul>
+                   <li>Коди Платформ</li>
+                   <li>Шийдэл</li>
+                   <li>Боломжууд</li>
+                   <li>Харилцагч</li>
+                   <li>Бидний тухай</li>
+                 </ul>
+                 <div style="height: 30px;"></div>
+                 <div class="box">
+                   <form>
+                    <input name="full_name" placeholder="Овог нэр" required="" type="text" class="form-control" value="">
+                    <input name="email" placeholder="И-мэйл" required="" type="text" class="form-control" value="">
+                    <input name="phone" placeholder="Утас" required="" type="text" class="form-control" value="">
+                    <input name="company" placeholder="Байгууллагын нэр" required="" type="text" class="form-control" value="">
+                    <button class="hamtrah">
+                      <span>Хамтрах</span>
+                    </button>
+                   </form>
+                 </div>
+                 <div class="footer-copyright"><p>©2021 Cody Inc. All rights reserved. </p></div>
+
+               </div>
+             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+     </div>
+  
+
+
+       <div class="customer" >
+           <div class="cover">
+            <div class="swiper coverswiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" > <img src="../image/desktop_banner02.png" class="d-block w-100" alt="..."></div>
+                <div class="swiper-slide" > <img src="../image/desktop-banner-1.png" class="d-block w-100" alt="..."></div>
+                
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev" style="display: none;"></div>
+              <div class="swiper-button-next" style="display: none;"></div>
+            
+              <!-- If we need scrollbar -->
+          
+              <script>
+                var swiper = new Swiper('.coverswiper', {
+                  loop: true,
+                 autoplay: {
+                   delay: 4000,
+                 },
+                });
+                  </script>
+          </div>
+           </div>
+
+
+
+
+
+           <div class="brand">
+
+            <iframe src="small.swiper.html" width="100%" class="small-swiper">
+            </iframe>
+       </div>
+
+
+      <div class="codeplatform">
+        <!-- Slider main container -->
+ <div class="swiper fade">
+   <!-- Additional required wrapper -->
+   <div class="swiper-wrapper fade-wrapper">
+     <!-- Slides -->
+     <div class="swiper-slide fade-slide">
+         <div class="fade-body">
+            <img src="../icon/shoppy10.png" class="codyimg" >
+                   <div class="text">
+                       <h1 class="title">Коди Платформ</h1> 
+                               <p class="description">Худалдаа, үйлчилгээний бизнест зориулсант датат хиймэл оюун ухаанд суурилсан, тасралтгүй хөгжүүлэлттэй. Цахим худалдааны цогц платформ юм. </p>
+                                       <div class="swiper-pagination"></div>
+                     </div>
+         </div>
+     </div>
+     <div class="swiper-slide fade-slide">
+        <div class="fade-body">
+           <img src="../icon/next10.png" class="codyimg" >
+                  <div class="text">
+                      <h1 class="title">Цахим худалдааны цогц платформ</h1> 
+                              <p class="description">Бид маш бага зардлаар таны бизнесийг цахим орчинд ажиллах боломжийг бүрдүүлнэ. Та богино хугацаанд, найдвартай, уян хатан цахим худалдаагаа эхлүүлээрэй </p>
+                                      <div class="swiper-pagination"></div>
+                    </div>
+        </div>
+    </div>   <div class="swiper-slide fade-slide">
+        <div class="fade-body">
+           <img src="../icon/CONVERSE10.png" class="codyimg" >
+                  <div class="text">
+                      <h1 class="title">Платформын хүчийг мэдэр</h1> 
+                              <p class="description">Дэлхийн тэргүүлэгч технологиудыг хослуулан ашиглаж, технологийн тасралтгүй хөгжүүлэлтээр хэрэглэгч байгууллагыг хангана. 
+                                      Платформын гайхалтай шийдлүүдийг ашиглан борлуулалтаа өсгөөрэй </p>
+                                      <div class="swiper-pagination">
+                                        
+                                      </div>
+                    </div>
+        </div>
+    </div>
+     
+   </div>
+   <script>
+    var swiper = new Swiper('.fade', {
+      effect: 'fade',
+fadeEffect: {
+crossFade: true
+},
+pagination: {
+el: '.swiper-pagination',
+type: 'bullets',
+}, autoplay: {
+delay: 4000,
+},
+
+});
+</script>
+ </div>
+      </div>
+
+   
+     <div class="solution"></div>
+     <div class="features"></div>
+     <div class="can"></div>
+
+     <footer></footer>
+
+ </div>
+
+ <script>
+  // function myFunction() {
+   // var x = document.getElementById("myTopnav");
+    //if (x.className === "menus") {
+   //   x.className += " responsive";
+ //   } else {
+   //   x.className = "menus";
+  //  }
+ // }
+
+ 
+function myFunction() {
+    var x = document.getElementById("mySlid");
+    if (x.className === "slider") {
+      x.className += " open";
+    } else {
+      x.className = "slider";
+    }
+  }
+  </script>
+
+ 
+
+
+</body>
+</html>
