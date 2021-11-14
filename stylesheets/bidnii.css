@@ -1,6 +1,8 @@
 *, ::before, ::after {
     background-repeat: no-repeat;
+    font-family: "Averta CY", sans-serif;
 }
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
 
 .solution{
     background-color: rgb(250, 251, 255);
@@ -27,7 +29,7 @@
     margin: 0px auto 50px;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size:36px;
     color: rgb(30, 32, 48);
 }
 
@@ -64,7 +66,7 @@ px
 .s-item h5{
     color: rgb(136, 85, 241);
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .s-item p{
@@ -75,6 +77,141 @@ px
         margin-bottom: 0px;
 
 }
-delgerengui{
-    
+.delgerengui{
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 8px;
+    text-align: center;
+    background: linear-gradient(
+95.41deg, rgb(131, 38, 226) 34.67%, rgb(82, 6, 225) 148.46%);
+    margin: 0px auto;
+    display: block;
+
+    transition: all 0.2s ease-in-out 0s;
+    color: white;
+     outline: none;
+     border: 1px;
 }
+
+span{
+    color: rgb(255, 255, 255);
+    font-family: "Averta CY", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  
+    .content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 0px 7%;
+        margin-top: 6%;
+        margin-bottom: 7%;
+        align-content: center;
+    }
+
+ .so{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto -34px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(30, 32, 48);
+ }
+    }
+
+
+.bi{
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-position: center ;
+    transition: all 0.2s ease-in-out 0s;
+    color: violet;
+    border: none;
+    cursor: pointer;
+margin-left: 90%;
+
+}
+
+.popContent{
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.popContent{
+    border: none;
+    border-radius: 20px;
+    padding: 30px 20px;
+    background-color: rgb(195 48 48);
+    position: relative;
+    display: flex;
+
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3 rem;
+    outline: 0;
+
+}
+
+.popFull{
+    padding: 0px;
+    position: relative;
+
+}
+
+.popSection{
+    padding: 0px 25px 20px;
+}
+
+.popHeader{
+    margin-bottom: 46px;
+
+}
+.popHeader h5{
+    color: rgb(30, 32, 48);
+    font-family: "Averta CY";
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    width: fit-content;
+    margin: auto;
+    line-height: 1.2;
+    font-family: "Averta CY", sans-serif;
+}
+
+.popHeader h5::after{
+    content: "";
+    width: 40%;
+    border-radius: 10px;
+    margin: 14px auto;
+    height: 3px;
+    background-color: rgb(81, 5, 225);
+    display: block;
+}
+.popText{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 49px80px;
+    overflow-y: auto;
+    max-height: 700px;
+    margin-right: -23px;
+    padding-right: 23px;
+}
+.pop p {
+    font-size: 18px;
+    color: rgb(137, 137, 137);
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+

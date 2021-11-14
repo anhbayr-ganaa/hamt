@@ -82,10 +82,12 @@ margin-right: 60px;
 }
 
 :root{
-    --swiper-theme-color:#6f42c1;
-    --swiper-navigation-size: 44px;
-
+  
+    
+    --swiper-theme-color: #6f42c1;
 }
+
+
 
 .codeplatform{
     margin-top:10%;
