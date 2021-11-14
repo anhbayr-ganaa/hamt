@@ -1,0 +1,136 @@
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+/* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .popContent{
+      margin-left: 9%;
+      margin-right: 9%;
+      margin-top: 4%;
+      margin-bottom: 4%;
+  }
+  
+  .popContent{
+      border: none;
+      border-radius: 20px;
+      padding: 30px 20px;
+      background-color: rgb(195 48 48);
+      position: relative;
+      display: flex;
+  
+      pointer-events: auto;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid rgba(0,0,0,.2);
+      border-radius: 0.3 rem;
+      outline: 0;
+  
+  }
+  
+  .popFull{
+      padding: 0px;
+      position: relative;
+      display: flex;
+      flex-direction: row-reverse;
+  
+  }
+  
+  .popSection{
+      padding: 0px 25px 20px;
+  }
+  
+  .popHeader{
+      margin-bottom: 46px;
+  
+  }
+  .popHeader h5{
+      color: rgb(30, 32, 48);
+      font-family: "Averta CY";
+      font-weight: bold;
+      text-align: center;
+      font-size: 28px;
+      width: fit-content;
+      margin: auto;
+      line-height: 1.2;
+      font-family: "Averta CY", sans-serif;
+  }
+  
+  .popHeader h5::after{
+      content: "";
+      width: 40%;
+      border-radius: 10px;
+      margin: 14px auto;
+      height: 3px;
+      background-color: rgb(81, 5, 225);
+      display: block;
+  }
+  .popText{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 49px 80px;
+      overflow-y: auto;
+   
+      max-height: 700px;
+      margin-right: -23px;
+      padding-right: 23px;
+      
+  }
+  .pop p {
+      font-size: 18px;
+      color: rgb(137, 137, 137);
+      font-weight: 400;
+      margin-bottom: 0px;
+  }
+  .bi{
+      width: 30px;
+      height: 30px;
+  
+      background-position: center ;
+      transition: all 0.2s ease-in-out 0s;
+      color: violet;
+      border: none;
+      cursor: pointer;
+  
+      background-color: white;
+  
+  }
+  
+  .bi:hover{
+  
+  }
+  
+  

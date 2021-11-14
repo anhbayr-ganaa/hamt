@@ -2,7 +2,10 @@
     <meta charset="utf-8">
     <head>
         <link rel="stylesheet" type="text/css" href="../stylesheets/bidnii.css">
+
+        <link rel="stylesheet" type="text/css" href="../stylesheets/shiidluud.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bull:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap">
     </head>
@@ -30,54 +33,115 @@
                             </div>
             </div>
             </div>
-            <button type="button" class="delgerengui"><span>Дэлгэрэнгүй</span>
+            <button type="button" class="delgerengui" id="myBtn"><span>Дэлгэрэнгүй</span>
             </button>
         </div>
-<div class="popContent">
-<div class="popFull">
-    <button class="bi bi-x-lg" type="button"></button>
-    <div class="popSection">
-<div class="popHeader">
-    <h5> Шийдлүүд</h5>
-</div>
-<div class="popText">
-    <div class="s-item pop">
-        <h5>Headless Ecommerce</h5>
-        <p>Headless цахим худалдааны шийдлээр бизнесийн онцлогтоо тохирох цахим худалдааг бүтээж ирээдүйтэй бэлтгэ</p>
-    </div>
-    <div class="s-item pop">
-        <h5>Headless Ecommerce</h5>
-        <p>Headless цахим худалдааны шийдлээр бизнесийн онцлогтоо тохирох цахим худалдааг бүтээж ирээдүйтэй бэлтгэ</p>
-    </div>
-    <div class="s-item pop">
-        <h5>Headless Ecommerce</h5>
-        <p>Headless цахим худалдааны шийдлээр бизнесийн онцлогтоо тохирох цахим худалдааг бүтээж ирээдүйтэй бэлтгэ</p>
-    </div>
-    <div class="s-item pop">
-        <h5>Headless Ecommerce</h5>
-        <p>Headless цахим худалдааны шийдлээр бизнесийн онцлогтоо тохирох цахим худалдааг бүтээж ирээдүйтэй бэлтгэ</p>
-    </div>
-    <div class="s-item pop">
-        <h5>Headless Ecommerce</h5>
-        <p>Headless цахим худалдааны шийдлээр бизнесийн онцлогтоо тохирох цахим худалдааг бүтээж ирээдүйтэй бэлтгэ</p>
-    </div>
-    <div class="s-item pop">
-        <h5>Headless Ecommerce</h5>
-        <p>Headless цахим худалдааны шийдлээр бизнесийн онцлогтоо тохирох цахим худалдааг бүтээж ирээдүйтэй бэлтгэ</p>
-    </div>
-    <div class="s-item pop">
-        <h5>Headless Ecommerce</h5>
-        <p>Headless цахим худалдааны шийдлээр бизнесийн онцлогтоо тохирох цахим худалдааг бүтээж ирээдүйтэй бэлтгэ</p>
-    </div>
-</div>
-    </div>
 
 
-</div>
 
-<div class="">
 
-</div>
+        <div id="myModal" class="modal">
+        
+        
+        
+        
+           
+        
+        <div class="popFull">
+            <div class="popContent modal-content" id="myModal" >
+            <span class="close">&times;</span>
+            <div class="popSection">
+            
+        <div class="popHeader">
+        
+            <h5> Шийдлүүд</h5>
         </div>
+        <div class="popText">
+            <div class="s-item pop">
+                <h5>Headless Ecommerce</h5>
+                <p>Headless цахим худалдааны шийдлээр бизнесийн онцлогтоо тохирох цахим худалдааг бүтээж ирээдүйтэй бэлтгэ</p>
+            </div>
+            <div class="s-item pop">
+                <h5>Multi Store</h5>
+                <p>Ашиглахад хялбар, салбар бизнесүүдийнхээ сүлжээг бий болгож удирдах</p>
+            </div>
+            <div class="s-item pop">
+                <h5>Market Place</h5>
+                <p>Бизнесийн загвартай тохируулан олон төрлийн борлуулагчдын зах зээлийг бий болгох боломжтой</p>
+            </div>
+            <div class="s-item pop">
+                <h5>Media Platform</h5>
+                <p>Медиа платформын тусламжтайгаар контент дээр суурьласан цахим худалдаагаа эхлүүлээрэй</p>
+            </div>
+            <div class="s-item pop">
+                <h5>In App</h5>
+                <p>In app шийдлийн тусламжтайгаар томоохон Цахим хэтэвт, Супер аппликэйшд худалдаагаа өргөжүүлэх</p>
+            </div>
+            <div class="s-item pop">
+                <h5>Digital Wallet</h5>
+                <p>Цахим хэтэвч дээр суурласан төлбөр тооцооны нэмэлт шийдэлүүдийг болгох</p>
+            </div>
+            <div class="s-item pop">
+                <h5>B2B and B2C business</h5>
+                <p>B2C болон B2B Бизнес загварт зориулан хөгжүүлсэн цахим худалдааны нэмэлт боломжууд</p>
+            </div>
+            <div class="s-item pop">
+                <h5>Custom Development</h5>
+                <p>Захиалагчийн хүсэлтийн дагуу нэмэлт хөгжүүлэлт боломжуудыг хөгжүүлэх</p>
+            </div>
+            <div class="s-item pop">
+                <h5>Multi language</h5>
+                <p>Цахим дэлгүүрээ олон хэл дээр гадаад дотоодын үйлчлүүлэгчтэй хүргэх боломжтой</p>
+            </div>
+            <div class="s-item pop">
+                <h5>Online to Offline</h5>
+                <p>Pos (Point of sale), смарт дэлгүүрийн шийдлийн тусламжтай худалдаагаа өргөжүүлэх </p>
+            </div>
+            <div class="s-item pop">
+                <h5>Social Ecommerce</h5>
+                <p>Томоохон сошиал суваг дээр худалдааны орон зайгаа бий болгох боломжууд</p>
+            </div>
+         
+        
+        </div>
+            </div>
+        
+        
+        </div>
+        
+        
+                </div>
+          </div>
+        
+        </div>
+        
+        <script>
+        
+        var modal = document.getElementById("myModal");
+        
+        
+        var btn = document.getElementById("myBtn");
+        
+        
+        var span = document.getElementsByClassName("close")[0];
+        
+        
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+        
     </body>
 </html>
